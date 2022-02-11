@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="flex ai-c jc-c">
-        <ul class="flex ai-c jc-sb">
+    <header class="primary">
+        <ul id="menu">
             <li>
                 <a href="index.html"> Home </a>
             </li>
@@ -19,46 +19,84 @@
             </li>
         </ul>
     </header>
-    <main>
-        <section>
-            <h1>Sobre o Éde</h1>
-            <div class="flex jc-sb ai-c">
-                <div class="content-txt">
-                    <p>
-                        Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais 
-                        interessantis.Quem num gosta di mé, boa gentis num é.Casamentiss faiz malandris se 
-                        pirulitá. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique 
-                        interdum. Leite de capivaris, leite de mula manquis sem cabeça. Vehicula non. Ut 
-                        sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. A ordem dos tratores 
-                        não altera o pão duris. Mé faiz elementum girarzis, nisi eros vermeio.
-                        Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora 
-                        torquent. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Suco de 
-                        cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Paisis, filhis, 
-                        espiritis santis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
-                        Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. 
-                        Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Paisis, filhis, espiritis santis.
-                    </p>
-                </div>
-                <div class="content-img"></div>                
+    <main class="transition pdd-30">
+        <section class="container">
+            <div class="content-txt pdd-30">
+                <h1 class="text-center mb">Sobre o Éde</h1>
+                <p class="justify">
+                    Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais 
+                    interessantis.Quem num gosta di mé, boa gentis num é.Casamentiss faiz malandris se 
+                    pirulitá. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique 
+                    interdum. Leite de capivaris, leite de mula manquis sem cabeça. Vehicula non. Ut 
+                    sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. A ordem dos tratores 
+                    não altera o pão duris. Mé faiz elementum girarzis, nisi eros vermeio.
+                </p>
+                <p class="justify">
+                    Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora 
+                    torquent. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Suco de 
+                    cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Paisis, filhis, 
+                    espiritis santis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
+                    Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. 
+                    Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Paisis, filhis, espiritis santis.
+                </p>
             </div>
+            <div>
+                <img 
+                    class="br-50 wh-350 pdd-30" 
+                    src="https://github.com/oieusouoede.png" 
+                    alt="Éde em seu habitat natural"
+                />
+            </div>                
         </section>
         <section>
-            <h1>Olha esse vídeo</h1>
-            <div class="flex jc-c">
-                <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/lnE7Pr99dfo" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-                </iframe>
+            <h1 class="text-center">Olha esse vídeo</h1>
+            <div class="container">
+                <div class="pdd-30">
+                    <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/lnE7Pr99dfo" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="primary">
+        <h2 class="text-center">Éde nas redes</h2>
+        <div class="container pdd-30">
+            <a href="https://www.freecodecamp.org/edesoares">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/fcc-icon.png" 
+                    alt="freeCodeCamp"
+                />
+            </a>
+            <a href="https://github.com/oieusouoede">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/github-icon.png" 
+                    alt="Github"
+                />
+            </a>
+            <a href="https://codepen.io/edesoares">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/codepen-icon.png" 
+                    alt="Codepen"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/edesoares/">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/linkedin-icon.png" 
+                    alt="LinkedIn"
+                />
+            </a>
+        </div>
     </footer>
 </body>
 </html>

@@ -4,48 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato </a>
-        </li>
-    </ul>
-    <h1>Fala que eu te ouvo:</h1>
-    <form>
-        <label for="nome">Nome:</label><br/>
-        <input type="text" id="nome" placeholder="Insira seu nome"/>
-        <br/><br/>
-        <label for="email">E-mail:</label><br/>
-        <input type="email" id="email" placeholder="Insira seu E-mail"/>
-        <br/><br/>
-        <label for="assunto">Assunto:</label><br/>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br/><br/>
-        <button type="submit">Enviar</button>
-    </form>
-    <br/>
-    <h2>Éde nas redes </h2>
-    <ul>
-        <li>
-            <a href="http://github.com/oieusouoede">Github</a><br/>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/edesoares/">LinkedIn</a>
-        </li>
-    </ul>
-    
-    <h2>Olha esse mapa</h2>
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6929626591464!2d-46.612477249155184!3d-23.57946836807183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be03479a555%3A0xb1369d96ed4ffafb!2sMonumento%20%C3%A0%20Independ%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1644437808857!5m2!1spt-BR!2sbr" 
-        width="600" height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
-    </iframe>
+    <header class="primary">
+        <ul id="menu">
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li>
+                <a href="contato.html"> Contato </a>
+            </li>
+        </ul>
+    </header>
+    <main class="transition pdd-30">
+        <div class="container">
+            <section>
+                <h1 class="text-center mb">Fala que eu te ouvo</h1>
+                <form>
+                    <label for="nome">Nome:</label><br/>
+                    <input type="text" id="nome" placeholder="Insira seu nome"/>
+                    <br/><br/>
+                    <label for="email">E-mail:</label><br/>
+                    <input type="email" id="email" placeholder="Insira seu E-mail"/>
+                    <br/><br/>
+                    <label for="assunto">Assunto:</label><br/>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                    <br/><br/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <section class="pdd-30 wdt-50">
+                <h2 class="mb">Olha esse mapa</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6929626591464!2d-46.612477249155184!3d-23.57946836807183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be03479a555%3A0xb1369d96ed4ffafb!2sMonumento%20%C3%A0%20Independ%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1644437808857!5m2!1spt-BR!2sbr" 
+                    width="100%" height="300px" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </section>
+        </div>
+    </main>
+    <footer class="primary">
+        <h2 class="text-center">Éde nas redes</h2>
+        <div class="container pdd-30">
+            <a href="https://www.freecodecamp.org/edesoares">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/fcc-icon.png" 
+                    alt="freeCodeCamp"
+                />
+            </a>
+            <a href="https://github.com/oieusouoede">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/github-icon.png" 
+                    alt="Github"
+                />
+            </a>
+            <a href="https://codepen.io/edesoares">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/codepen-icon.png" 
+                    alt="Codepen"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/edesoares/">
+                <img 
+                    class="icon"
+                    src="https://raw.githubusercontent.com/oieusouoede/personal-portfolio-webpage/main/assets/linkedin-icon.png" 
+                    alt="LinkedIn"
+                />
+            </a>
+        </div>
+    </footer> 
 </body>
 </html>
